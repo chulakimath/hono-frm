@@ -19,7 +19,7 @@
 	},
 	"d1_databases": [
 		{
-			"binding": "my_api_db",
+			"binding": "DB",
 			"database_name": "my_api_db",
 			"database_id": "e6605dc3-f94a-4fb4-8587-fb2b4f574270"
 		}
