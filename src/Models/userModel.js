@@ -35,3 +35,8 @@ export const getUserById = async (c) => {
 	const result = await c.env.DB.prepare(`SELECT * FROM users WHERE id = ?1`).bind(id).all();
 	return result;
 };
+
+export const getUserByEmail = async (c, email) => {
+	const result = await c.env.DB.prepare(`SELECT * FROM users WHERE email = ?1`).bind(email).all();
+	return result;
+};
